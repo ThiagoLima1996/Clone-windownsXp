@@ -1,0 +1,8 @@
+.desktop {
+    display: flex;
+    flex-flow: column;
+    width: 100vw;
+    background-image: url(../../assents/img/area-de-trabalho.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
