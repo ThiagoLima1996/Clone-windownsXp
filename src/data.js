@@ -49,3 +49,21 @@ export const btnFooter = [
         id: "desligar"
     }
 ];
+
+export const iconsMenu = [
+    {
+        titulo: "Explore",
+        subtitulo: "Internet Explore",
+        img: imgExplore
+    },
+    {
+        titulo: "Lixeira",
+        subtitulo: "Lixeira",
+        img: imgLixeira
+    },
+    {
+        titulo: "Midia play",
+        subtitulo: "windowns midia player",
+        img: imgMidia
+    }
+]
