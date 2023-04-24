@@ -1,0 +1,27 @@
+.taskbar_socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    background: linear-gradient(to bottom, #0fadf4 0%, #0fadf4 9%, #108ae5 18%, #108ae5 92%, #333 100%);
+}
+
+.icons_socials {
+    width: 25px;
+    height: 25px;
+}
+
+.icon_volume {
+    background-image: url(../../assents/img/icone-de-volume.png);
+    background-size: cover;
+}
+
+.icon_midia {
+    background-image: url(../../assents/img/icone-de-media.png);
+    background-size: cover;
+}
+
+.icon_secure {
+    background-image: url(../../assents/img/icone-de-segurança.png);
+    background-size: cover;
+}

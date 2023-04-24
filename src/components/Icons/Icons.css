@@ -1,0 +1,24 @@
+.icons {
+    width: 45px;
+    height: 60px;
+    padding: 15px;
+    text-align: center;
+    /* border: solid 1px black; */
+}
+
+.icons-img {
+    width: 100%;
+}
+
+.icons-title {
+    color: white;
+    font-size: .8em;
+    cursor: context-menu;
+    margin-bottom: 2px;
+    text-shadow: 2px 2px 8px black;
+}
+
+.icon-select {
+    background: #245edb;
+    padding: 0 2px;
+}

@@ -1,0 +1,20 @@
+
+.btn-footer {
+    display: flex;
+    margin-right: 1em;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-footer a {
+    color: white;
+    font-size: 1em;
+    margin-left: 5px;
+    text-shadow: 2px 2px 8px #245edb;
+    text-decoration: none;
+}
+
+.btn-footer img{
+    width: 30px;
+    height: 30px;
+}

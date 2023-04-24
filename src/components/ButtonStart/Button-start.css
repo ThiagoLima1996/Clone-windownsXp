@@ -1,0 +1,24 @@
+.btn-start {
+    display: flex;
+    width: 140px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-shadow: 2px 2px 8px #003d00;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 12px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #3d973d 0%, #6faf72 9%, #3d973d 18%, #3d973d 92%, #666 100%);
+}
+
+.btn-start:hover{
+    background: linear-gradient(to bottom, #3d973d 0%, #6faf72 9%, #3d973d 18%, #37d437 92%, #666 100%);
+}
+
+.btn-start-img{
+    width: 30px;
+    height: 30px;
+}

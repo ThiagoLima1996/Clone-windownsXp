@@ -1,0 +1,10 @@
+.taskbar {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    width: 100vw;
+    background: linear-gradient(to bottom, #245edb 0%, #0c8dea 9%, #245edb 18%, #245edb 92%, #333 100%);
+}
