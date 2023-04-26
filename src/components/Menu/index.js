@@ -1,21 +1,25 @@
 import React from "react";
 import './Menu.css'
-import { btnFooter } from "../../data";
 import BtnFooter from "../BtnFooter";
 import IconsMenu from "../IconsMenu";
+import { useState } from "react";
 
-export const openMenu = () => {
-    console.log("teste")
-}
+
+
 
 
 const Menu = () => {
-     
+    
+    const [menu, setMenu] = useState("menu menu-active")
 
+    const active = () => {
+        console.log("ok");
+    }
+    
 
     return (
         //menu inciar do windons
-        <div className="menu menu-active">
+        <div className={menu}>
             {/* top do menu inciar */}
             <div className="top">
                 <div className="top-img"></div>
@@ -34,9 +38,9 @@ const Menu = () => {
             </div>
             {/* roda pé do menu iniciar */}
             <div className="footer">
-              <BtnFooter />  
+                <BtnFooter />
             </div>
-            
+
         </div>
     );
 }

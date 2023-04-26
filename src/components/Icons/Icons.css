@@ -3,6 +3,7 @@
     height: 60px;
     padding: 15px;
     text-align: center;
+    cursor: pointer;
     /* border: solid 1px black; */
 }
 
@@ -13,7 +14,6 @@
 .icons-title {
     color: white;
     font-size: .8em;
-    cursor: context-menu;
     margin-bottom: 2px;
     text-shadow: 2px 2px 8px black;
 }
