@@ -9,7 +9,7 @@ const Clock = () => {
             minute: "2-digit"
     }))
     // função para poder atualizar o relogia automaticamento sem precisar usar f5
-    const clock = () => {
+    function clock() {
         setHora(new Date().toLocaleTimeString("pt-BR", {
             hour: "2-digit",
             minute: "2-digit"
@@ -17,7 +17,7 @@ const Clock = () => {
     }
     //função que atualiza a hora no estilo react.js
     useEffect(() => {
-        setTimeout(() => {
+        setInterval(() => {
           clock()
         }, 1000)
       })

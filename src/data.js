@@ -8,17 +8,7 @@ import btnImg from './assents/img/icone-de-iniciar.png'
 import imgLogoff from './assents/img/icone-de-logoff.png'
 import imgDesligar from './assents/img/icone-de-desligar.png'
 
-//export dos icones para a area de trabalho
-export const iconsDesktop = [
-    {
-        nome: "Lixeira",
-        img: imgLixeira
-    },
-    {
-        nome: "Explore",
-        img: imgExplore
-    }
-]
+export const internetExplore = imgExplore
 
 //export para a barra de tarefas
 export const taskbar = [
