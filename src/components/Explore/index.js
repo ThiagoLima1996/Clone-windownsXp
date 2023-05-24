@@ -7,18 +7,25 @@ const Explore = () => {
 
     const [icon, setIcon] = useState("icons-title")
 
-    const select = () =>{
+    const select = () => {
         if (icon === "icons-title") {
             return setIcon("icons-title icon-select")
         } else {
             return setIcon("icons-title")
         }
-        
+
+    }
+
+    function window(props) {
+        console.log(props)
     }
 
     return (
         <div>
-            <div onClick={select} className='icons'>
+            <div
+                onClick={select}
+                onDoubleClick={window("ok")}
+                className='icons'>
                 <img
                     src={internetExplore}
                     alt="Internet Explore"
